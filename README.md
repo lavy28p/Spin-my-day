@@ -89,6 +89,25 @@ Items table
 }
 ```
 
+Posts table
+
+```JSON
+{
+    "records": [
+        {
+            "id": "recehhuDiRfj8GlTw",
+            "fields": {
+                "Post": "“How often do you blog?” I was recently asked at a writing conference.\n\n“I blog every day,” I’d say, with the stiff upper lip required of such stateme...",
+                "Date": "2021-06-29"
+            },
+            "createdTime": "2021-06-29T14:12:02.000Z"
+        },
+    ],
+    "offset": "recrg1fLCcFAWdyS5"
+}
+
+```
+
   
 ### MVP/PostMVP
 #### MVP
