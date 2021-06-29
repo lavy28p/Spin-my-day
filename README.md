@@ -42,6 +42,9 @@ Add a Book Page
 
 ![image](https://user-images.githubusercontent.com/84349667/123825251-61be8e80-d8c4-11eb-8572-77805c400f8f.png)
 
+Blogs Page
+
+![image](https://user-images.githubusercontent.com/84349667/123825583-a4806680-d8c4-11eb-85e5-09a78fb0c08b.png)
 
 
 
