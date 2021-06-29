@@ -1,7 +1,7 @@
 # Project Overview
 
 ## Project Name
-Spin-My-Day
+Spin My Day
 
 ## Project Description
 This is a personal productivity app. We choose what we do everyday by spinning a wheel, just for fun.
