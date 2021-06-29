@@ -68,11 +68,11 @@ Recipes Table
         {
             "id": "recrHhXxygGAMwoFo",
             "fields": {
-                "Cuisine": "American",
-                "Recipe_Image": "https://www.themealdb.com/images/media/meals/sywswr1511383814.jpg",
-                "Recipe_Name": "Banana Pancakes",
-                "Recipe_Detail": "In a bowl, mash the banana with a fork until it resembles a thick purée. Stir in the eggs, baking powder and vanilla. Heat a large non-stick frying pa...",
-                "Recipe_Ingredients": "Banana, Eggs,Baking Powder,Vanilla Extract,Oil,Pecan Nuts,Raspberries"
+                "cuisine": "American",
+                "image": "https://www.themealdb.com/images/media/meals/sywswr1511383814.jpg",
+                "name": "Banana Pancakes",
+                "detail": "In a bowl, mash the banana with a fork until it resembles a thick purée. Stir in the eggs, baking powder and vanilla. Heat a large non-stick frying pa...",
+                "ingredients": "Banana, Eggs,Baking Powder,Vanilla Extract,Oil,Pecan Nuts,Raspberries"
             },
             "createdTime": "2021-06-29T14:10:53.000Z"
         },
@@ -89,8 +89,8 @@ Workouts table
         {
             "id": "recUCDoGVZPKdfoBn",
             "fields": {
-                "Workout": "Cycling",
-                "Time": "30min"
+                "workout": "Cycling",
+                "time": "30min"
             },
             "createdTime": "2021-06-29T14:11:46.000Z"
         },
@@ -107,10 +107,10 @@ Books table
         {
             "id": "reclVYSV7xuECkdqj",
             "fields": {
-                "Author": "Roberto Bolaño",
-                "Name": "2666",
-                "Description": "Completed in 2003 shortly before his death, 2666 is not only Roberto Bolaño's masterpiece but also one of the finest and most important novels of the ...",
-                "Book_Img": "https://www.powells.com/book/2666-9780312429218/1-0"
+                "author": "Roberto Bolaño",
+                "title": "2666",
+                "description": "Completed in 2003 shortly before his death, 2666 is not only Roberto Bolaño's masterpiece but also one of the finest and most important novels of the ...",
+                "image": "https://www.powells.com/book/2666-9780312429218/1-0"
             },
             "createdTime": "2021-06-29T14:29:43.000Z"
         }
@@ -127,8 +127,8 @@ Items table
         {
             "id": "reckPkMBVEJ8tm2ex",
             "fields": {
-                "Item": "Milk",
-                "Store": "Whole Foods"
+                "item": "Milk",
+                "store": "Whole Foods"
             },
             "createdTime": "2021-06-29T14:12:15.000Z"
         },
@@ -145,13 +145,13 @@ Posts table
         {
             "id": "recehhuDiRfj8GlTw",
             "fields": {
-                "Post": "“How often do you blog?” I was recently asked at a writing conference.\n\n“I blog every day,” I’d say, with the stiff upper lip required of such stateme...",
-                "Date": "2021-06-29"
+                "post": "“How often do you blog?” I was recently asked at a writing conference.\n\n“I blog every day,” I’d say, with the stiff upper lip required of such stateme...",
+                "topic": "How often do I blog"
             },
             "createdTime": "2021-06-29T14:12:02.000Z"
-        },
+        }
     ],
-    "offset": "recrg1fLCcFAWdyS5"
+    "offset": "recehhuDiRfj8GlTw"
 }
 
 ```
@@ -163,7 +163,7 @@ Rest table
         {
             "id": "recxtZDNLTb0WlRgL",
             "fields": {
-                "Image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.macksearplugs.com%2Fear-plugs-amazon-lifestyle-images%2Fear-plugs-for-sleeping-sleep-like-a-baby..."
+                "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.macksearplugs.com%2Fear-plugs-amazon-lifestyle-images%2Fear-plugs-for-sleeping-sleep-like-a-baby..."
             },
             "createdTime": "2021-06-29T14:56:34.000Z"
         },
@@ -180,8 +180,10 @@ Rest table
 - Axios call to AIRTABLE
 - Render data on all pages
 - Allow user to add data on required pages 
+- complete recipe and book component
 
 #### PostMVP
+- complete remaining components
 - Add styling for all pages
 
 ## Project Schedule
@@ -202,7 +204,7 @@ Rest table
 | --------- | :------: | :------------: | :-----------: | :---------: |
 | Initial layout setup | H | 2hrs| 
 | spin wheel functionality | H| 4hrs| 
-| Airtable setup | H| 1hrs| 
+| Airtable setup | H| 3hrs| 
 | Axios set up | H | 3hrs|  
 | Components setup | H | 3hrs|
 | Rendering Data | M| 3hrs| 
@@ -213,7 +215,7 @@ Rest table
 | Post MVP features | M | 3hrs|
 | General Research | M | 3hrs|
 | Add additional CSS look and feel to all components | M | 3hrs| 
-| Total | H | 36hrs| 
+| Total | H | 38hrs| 
 
 ### SWOT Analysis
 #### Strength:
