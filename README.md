@@ -4,7 +4,14 @@
 Spin My Day
 
 ## Project Description
-This is a personal productivity app. We choose what we do everyday by spinning a wheel, just for fun. When you land on an option, you go to that detail page.
+This is a personal productivity app. We choose what we do everyday by spinning a wheel, just for fun.
+When you land on an option, you go to that particular detail page. 
+'Try a new recipe' will show recipes based on the user cuisine selection.
+'Do a Workout' will lists workouts with a check box and also any workouts to add 
+'Lets Shop' will list items user needs to buy at which store and also let user add her choice of item to shop
+'Read a Book' list book suggestions with book name, author and description also let user add their choice of book in the list
+'Try a Blog' lets user add a post with a date and lists that on the page
+'Sleep like a Baby' when you land on this page displays random baby sleeping image
 
 ## Wireframe 
 Copied the link below for Desktop and mobile wireframe with public access.
