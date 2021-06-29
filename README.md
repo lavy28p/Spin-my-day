@@ -52,6 +52,35 @@ Workouts table
 }
 
 ```
+
+Books table 
+```JSON
+{
+    "records": [
+        {
+            "id": "reclVYSV7xuECkdqj",
+            "fields": {
+                "Name": "The Newcomer",
+                "Author": "Mary Kay Andrews",
+                "Description": "After she discovers her sister Tanya dead on the floor of her fashionable New York City townhouse, Letty Carnahan is certain she knows who did it: Tan..."
+            },
+            "createdTime": "2021-06-29T14:29:43.000Z"
+        },
+        {
+            "id": "recq95Usk59Yz0IUW",
+            "fields": {},
+            "createdTime": "2021-06-29T14:29:43.000Z"
+        },
+        {
+            "id": "recxpsDFRWVGuzJJW",
+            "fields": {},
+            "createdTime": "2021-06-29T14:29:43.000Z"
+        }
+    ],
+    "offset": "recxpsDFRWVGuzJJW"
+}
+```
+
   
 ### MVP/PostMVP
 #### MVP
