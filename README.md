@@ -7,6 +7,8 @@ Spin-My-Day
 This is a personal productivity app. We choose what we do everyday by spinning a wheel.
 
 ## Wireframe 
+Copied the link below for Desktop and mobile wireframe with public access.
+
 https://whimsical.com/hope-it-s-rest-day-7yS2fQLgdJ1pgNMYaxYKhf
 
 
