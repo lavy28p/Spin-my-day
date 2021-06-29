@@ -18,6 +18,10 @@ Copied the link below for Desktop and mobile wireframe with public access.
 
 https://whimsical.com/hope-it-s-rest-day-7yS2fQLgdJ1pgNMYaxYKhf
 
+![image](https://user-images.githubusercontent.com/84349667/123823995-456e2200-d8c3-11eb-8e18-f78a1c7f5fbb.png)
+
+
+
 
 ## API and Data Sample
 
