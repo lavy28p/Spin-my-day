@@ -54,6 +54,10 @@ Rest Page
 
 ![image](https://user-images.githubusercontent.com/84349667/123826036-05a83a00-d8c5-11eb-99ed-1c18472390da.png)
 
+## Component Heirarchy
+
+![image](https://user-images.githubusercontent.com/84349667/123827085-f1187180-d8c5-11eb-9db9-033920de1f8f.png)
+
 
 ## API and Data Sample
 
