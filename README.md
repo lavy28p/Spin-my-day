@@ -30,6 +30,20 @@ Recipe Detail Page
 
 ![image](https://user-images.githubusercontent.com/84349667/123824444-aa297c80-d8c3-11eb-8cf6-f2a42e7410dc.png)
 
+Workouts Page
+
+![image](https://user-images.githubusercontent.com/84349667/123824788-f4aaf900-d8c3-11eb-9813-e56793ff4af2.png)
+
+Books Page
+
+![image](https://user-images.githubusercontent.com/84349667/123825097-3a67c180-d8c4-11eb-9c8f-bf5b6e79318a.png)
+
+Add a Book Page
+
+![image](https://user-images.githubusercontent.com/84349667/123825251-61be8e80-d8c4-11eb-8572-77805c400f8f.png)
+
+
+
 
 
 
