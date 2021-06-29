@@ -4,7 +4,7 @@
 Spin My Day
 
 ## Project Description
-This is a personal productivity app. We choose what we do everyday by spinning a wheel, just for fun.
+This is a personal productivity app. We choose what we do everyday by spinning a wheel, just for fun. When you land on an option, you go to that detail page.
 
 ## Wireframe 
 Copied the link below for Desktop and mobile wireframe with public access.
@@ -124,14 +124,14 @@ Posts table
 ## Project Schedule
 |  Day  | Deliverable | Status |
 |-------|-------------| -------|
-|June 28| Prompt / Wireframes/ Timeframes | 
-|June 29| Project Approval | 
-|June 30| Work with APP.js (Spin wheel functionality)
-|June 30| Airtable setup
-|July 1 | Work on components/axios/links
-|July 2 | MVP  |                 
-|July 2 | Project Deployment |  
-|July 7 | Presentations/Project Submission | 
+|June 28| Prompt / Wireframes/ Timeframes | Completed
+|June 29| Project Approval | Pending
+|June 30| Work with APP.js (Spin wheel functionality) | Not Started
+|June 30| Airtable setup | Not Started
+|July 1 | Work on components/axios/links | Not Started
+|July 2 | MVP  | Not Started          
+|July 2 | Project Deployment |  Not Started
+|July 7 | Presentations/Project Submission | Not Started
 
 
 ## Timeframes
@@ -139,7 +139,7 @@ Posts table
 | --------- | :------: | :------------: | :-----------: | :---------: |
 | Initial layout setup | H | 2hrs| 
 | spin wheel functionality | H| 4hrs| 
-| Airtable setup | H| 2hrs| 
+| Airtable setup | H| 1hrs| 
 | Axios set up | H | 3hrs|  
 | Components setup | H | 3hrs|
 | Rendering Data | M| 3hrs| 
@@ -149,7 +149,7 @@ Posts table
 | Render results | H | 3hrs| 
 | Post MVP features | M | 3hrs|
 | General Research | M | 3hrs| 
-| Total | H | 34hrs| 
+| Total | H | 33hrs| 
 
 ## Code Snippet
 
