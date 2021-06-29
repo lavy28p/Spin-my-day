@@ -32,6 +32,26 @@ Recipes Table
 
   
 ```
+
+Workouts table
+
+```JSON
+
+{
+    "records": [
+        {
+            "id": "recUCDoGVZPKdfoBn",
+            "fields": {
+                "Workout": "Cycling",
+                "Time": "30min"
+            },
+            "createdTime": "2021-06-29T14:11:46.000Z"
+        },
+    ],
+    "offset": "recyRznNsvWm1QHMv"
+}
+
+```
   
 ### MVP/PostMVP
 #### MVP
