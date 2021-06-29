@@ -46,10 +46,13 @@ Blogs Page
 
 ![image](https://user-images.githubusercontent.com/84349667/123825583-a4806680-d8c4-11eb-85e5-09a78fb0c08b.png)
 
+Shopping List Page
 
+![image](https://user-images.githubusercontent.com/84349667/123825855-db567c80-d8c4-11eb-88a8-ec483afba2ba.png)
 
+Rest Page 
 
-
+![image](https://user-images.githubusercontent.com/84349667/123826036-05a83a00-d8c5-11eb-99ed-1c18472390da.png)
 
 
 ## API and Data Sample
