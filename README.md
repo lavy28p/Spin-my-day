@@ -4,7 +4,7 @@
 Spin-My-Day
 
 ## Project Description
-This is a personal productivity app. We choose what we do everyday by spinning a wheel.
+This is a personal productivity app. We choose what we do everyday by spinning a wheel, just for fun.
 
 ## Wireframe 
 Copied the link below for Desktop and mobile wireframe with public access.
@@ -66,18 +66,26 @@ Books table
             },
             "createdTime": "2021-06-29T14:29:43.000Z"
         },
-        {
-            "id": "recq95Usk59Yz0IUW",
-            "fields": {},
-            "createdTime": "2021-06-29T14:29:43.000Z"
-        },
-        {
-            "id": "recxpsDFRWVGuzJJW",
-            "fields": {},
-            "createdTime": "2021-06-29T14:29:43.000Z"
-        }
     ],
     "offset": "recxpsDFRWVGuzJJW"
+}
+```
+
+Items table
+
+```JSON
+{
+    "records": [
+        {
+            "id": "reckPkMBVEJ8tm2ex",
+            "fields": {
+                "Item": "Milk",
+                "Store": "Whole Foods"
+            },
+            "createdTime": "2021-06-29T14:12:15.000Z"
+        },
+    ],
+    "offset": "recEn5ZglRuEIPvzf"
 }
 ```
 
