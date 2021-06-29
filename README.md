@@ -14,7 +14,21 @@ https://whimsical.com/hope-it-s-rest-day-7yS2fQLgdJ1pgNMYaxYKhf
 
 ## API and Data Sample
 
+Recipes Table
 ```JSON
+
+    "records": [
+        {
+            "id": "recrHhXxygGAMwoFo",
+            "fields": {
+                "Cuisine": "American",
+                "Recipe_Image": "https://www.themealdb.com/images/media/meals/sywswr1511383814.jpg",
+                "Recipe_Name": "Banana Pancakes",
+                "Recipe_Detail": "In a bowl, mash the banana with a fork until it resembles a thick purée. Stir in the eggs, baking powder and vanilla. Heat a large non-stick frying pa...",
+                "Recipe_Ingredients": "Banana, Eggs,Baking Powder,Vanilla Extract,Oil,Pecan Nuts,Raspberries"
+            },
+            "createdTime": "2021-06-29T14:10:53.000Z"
+        },
 
   
 ```
@@ -37,6 +51,7 @@ https://whimsical.com/hope-it-s-rest-day-7yS2fQLgdJ1pgNMYaxYKhf
 |June 28| Prompt / Wireframes/ Timeframes | 
 |June 29| Project Approval | 
 |June 30| Work with APP.js (Spin wheel functionality)
+|June 30| Airtable setup
 |July 1 | Work on components/axios/links
 |July 2 | MVP  |                 
 |July 2 | Project Deployment |  
@@ -48,6 +63,7 @@ https://whimsical.com/hope-it-s-rest-day-7yS2fQLgdJ1pgNMYaxYKhf
 | --------- | :------: | :------------: | :-----------: | :---------: |
 | Initial layout setup | H | 2hrs| 
 | spin wheel functionality | H| 4hrs| 
+| Airtable setup | H| 2hrs| 
 | Axios set up | H | 3hrs|  
 | Components setup | H | 3hrs|
 | Rendering Data | M| 3hrs| 
@@ -57,7 +73,7 @@ https://whimsical.com/hope-it-s-rest-day-7yS2fQLgdJ1pgNMYaxYKhf
 | Render results | H | 3hrs| 
 | Post MVP features | M | 3hrs|
 | General Research | M | 3hrs| 
-| Total | H | 32hrs| 
+| Total | H | 34hrs| 
 
 ## Code Snippet
 
