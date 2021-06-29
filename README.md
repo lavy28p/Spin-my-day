@@ -151,7 +151,15 @@ Posts table
 | General Research | M | 3hrs| 
 | Total | H | 33hrs| 
 
-## Code Snippet
+### SWOT Analysis
+#### Strength:
+I feel quite confident with the React framework and building components
 
-## Change Log
+#### Weakness:
+I feel like the spin wheel functionaltity will take time for me especially with CSS involved
 
+#### Oppurtunities:
+Making this app whill help me get better with my CSS and also linking to different pages will help me with better REACT understanding
+
+#### Threats:
+Feels like CSS with Spin wheel and the functionality will consume more time for me than expected
