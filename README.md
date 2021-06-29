@@ -9,9 +9,6 @@ This is a personal productivity app. We choose what we do everyday by spinning a
 ## Wireframe 
 https://whimsical.com/hope-it-s-rest-day-7yS2fQLgdJ1pgNMYaxYKhf
 
-Window
-
-
 
 ## API and Data Sample
 
