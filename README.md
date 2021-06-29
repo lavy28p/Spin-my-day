@@ -225,4 +225,4 @@ I feel like the spin wheel functionaltity will take time for me especially with 
 Making this app whill help me get better with my CSS and also linking to different pages will help me with better REACT understanding
 
 #### Threats:
-Feels like CSS with Spin wheel and the functionality will consume more time for me than expected. Also using more tables want to make sure I'm using it right data and ont miss any links
+Feels like CSS with Spin wheel and the functionality will consume more time for me than expected. Also using more tables , I need to make sure I'm using it right data and not miss any links
