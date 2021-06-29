@@ -36,11 +36,11 @@ Workouts Page
 
 Books Page
 
-![image](https://user-images.githubusercontent.com/84349667/123825097-3a67c180-d8c4-11eb-9c8f-bf5b6e79318a.png)
+![image](https://user-images.githubusercontent.com/84349667/123847690-7dce2a00-d8dc-11eb-988c-b43be4beeafc.png)
 
 Add a Book Page
 
-![image](https://user-images.githubusercontent.com/84349667/123825251-61be8e80-d8c4-11eb-8572-77805c400f8f.png)
+![image](https://user-images.githubusercontent.com/84349667/123847728-8a528280-d8dc-11eb-9500-f3653fa9ca08.png)
 
 Blogs Page
 
@@ -107,14 +107,15 @@ Books table
         {
             "id": "reclVYSV7xuECkdqj",
             "fields": {
-                "Name": "The Newcomer",
-                "Author": "Mary Kay Andrews",
-                "Description": "After she discovers her sister Tanya dead on the floor of her fashionable New York City townhouse, Letty Carnahan is certain she knows who did it: Tan..."
+                "Author": "Roberto Bolaño",
+                "Name": "2666",
+                "Description": "Completed in 2003 shortly before his death, 2666 is not only Roberto Bolaño's masterpiece but also one of the finest and most important novels of the ...",
+                "Book_Img": "https://www.powells.com/book/2666-9780312429218/1-0"
             },
             "createdTime": "2021-06-29T14:29:43.000Z"
-        },
+        }
     ],
-    "offset": "recxpsDFRWVGuzJJW"
+    "offset": "reclVYSV7xuECkdqj"
 }
 ```
 
