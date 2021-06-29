@@ -107,7 +107,22 @@ Posts table
 }
 
 ```
+Rest table
 
+```JSON 
+{
+    "records": [
+        {
+            "id": "recxtZDNLTb0WlRgL",
+            "fields": {
+                "Image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.macksearplugs.com%2Fear-plugs-amazon-lifestyle-images%2Fear-plugs-for-sleeping-sleep-like-a-baby..."
+            },
+            "createdTime": "2021-06-29T14:56:34.000Z"
+        },
+    ],
+    "offset": "recAriUthoruZt2ro"
+}
+```
   
 ### MVP/PostMVP
 #### MVP
@@ -162,4 +177,4 @@ I feel like the spin wheel functionaltity will take time for me especially with 
 Making this app whill help me get better with my CSS and also linking to different pages will help me with better REACT understanding
 
 #### Threats:
-Feels like CSS with Spin wheel and the functionality will consume more time for me than expected
+Feels like CSS with Spin wheel and the functionality will consume more time for me than expected. Also using more tables want to make sure I'm using it right data and ont miss any links
