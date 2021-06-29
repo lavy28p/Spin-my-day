@@ -20,6 +20,9 @@ https://whimsical.com/hope-it-s-rest-day-7yS2fQLgdJ1pgNMYaxYKhf
 
 ![image](https://user-images.githubusercontent.com/84349667/123823995-456e2200-d8c3-11eb-8e18-f78a1c7f5fbb.png)
 
+![image](https://user-images.githubusercontent.com/84349667/123824284-85350980-d8c3-11eb-8d63-d1222ead729a.png)
+
+
 
 
 
