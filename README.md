@@ -210,8 +210,9 @@ Rest table
 | Debugging | H | 3hrs| 
 | Render results | H | 3hrs| 
 | Post MVP features | M | 3hrs|
-| General Research | M | 3hrs| 
-| Total | H | 33hrs| 
+| General Research | M | 3hrs|
+| Add additional CSS look and feel to all components | M | 3hrs| 
+| Total | H | 36hrs| 
 
 ### SWOT Analysis
 #### Strength:
