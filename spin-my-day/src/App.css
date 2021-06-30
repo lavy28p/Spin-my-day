@@ -1,38 +1,143 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
 .App {
   text-align: center;
+  padding: 20px;
+  background: rgb(4,2,56);
+  background: linear-gradient(90deg, rgba(4,2,56,1) 2%, rgba(9,9,121,1) 9%, rgba(0,212,255,1) 50%, rgba(2,0,36,1) 100%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.wheel {
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  background: rgb(4,2,56);
+  background: linear-gradient(90deg, rgba(4,2,56,1) 2%, rgba(9,9,121,1) 9%, rgba(0,212,255,1) 50%, rgba(2,0,36,1) 100%);
+  background-size: cover;
+
 }
 
-.App-link {
-  color: #61dafb;
+.options {
+  width: 450px;
+  height: 450px;
+  position: relative;
+  border-radius: 100%;
+  border: 5px solid black;
+  overflow: hidden;
+  transition: all 1s ease-in-out;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.wheel::after {
+  position: absolute;
+  content: '';
+  width: 20%;
+  height: 10%;
+  background: url("https://i.imgur.com/lhnQzIp.png") no-repeat;
+  background-size: 50px;
+  right: 17%;
+  top: 53%;
+  transform: translateY(-12%); 
 }
+
+span{
+  width: 50%;
+  height: 50%;
+  display: inline-block;
+  position: absolute;
+}
+
+/*Using Clip Path generator got the path for each section inside the wheel*/
+.selection1{
+  clip-path: polygon(100% 50%, 0 0, 0 100%);
+  background-color: #b34646;
+  top: 110px;
+  left: 0;
+}
+.selection2{
+  clip-path: polygon(100% 100%, 0 50%, 100% 0%);
+  background-color: #cc60ba;
+  top: 110px;
+  right: 0;
+}
+.selection3{
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  background-color: #9b4ac0;
+  bottom: 0;
+  left: 110px;
+}
+.selection4{
+  clip-path: polygon(0 0, 50% 100%, 100% 0);
+  background-color: #6860b6;
+  top: 0;
+  left: 110px;
+}
+
+.selection5{
+  clip-path: polygon(100% 100%, 50% 0, 0 50%);
+  background-color: #f1ef51;
+  top: 0;
+  left: 0;
+}
+
+.selection6{
+  clip-path: polygon(0 100%, 100% 50%, 50% 0);
+  background-color: #c35086;
+  top: 110;
+  left: 100;
+}
+
+.selection7{
+  clip-path: polygon(0 0, 50% 100%, 100% 50%);
+  background-color: #b3ee71;
+  bottom: 0;
+  right: 0;
+}
+
+.selection8{
+  clip-path: polygon(100% 0, 50% 100%, 0 50%);
+  background-color: #bb7f4d;
+  bottom: 0;
+  left: 0;
+}
+
+
+span b{
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/*Position the button absolute to the wheel so that the position does'nt change when screen size changes*/
+.spin {
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  border-color:solid black;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: rgb(172, 170, 170);
+}
+
+/* when the button is clicked reduce the size and font size of the button to look like it is clicked */
+.spin:active{
+  width: 70px;
+  height: 70px;
+  font-size: 15px;
+}
+
+
