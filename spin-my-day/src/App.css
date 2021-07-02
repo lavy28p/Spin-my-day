@@ -10,6 +10,11 @@
   padding: 20px;
   /*background: rgb(4,2,56);*/
   /*background: linear-gradient(90deg, rgba(4,2,56,1) 2%, rgba(9,9,121,1) 9%, rgba(0,212,255,1) 50%, rgba(2,0,36,1) 100%);*/
+  position: relative;
+}
+
+.App h1 {
+  font-size: 40px;
 }
 
 .wheel {
@@ -17,11 +22,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
   overflow: hidden;
   /*background: rgb(4,2,56);
   background: linear-gradient(90deg, rgba(4,2,56,1) 2%, rgba(9,9,121,1) 9%, rgba(0,212,255,1) 50%, rgba(2,0,36,1) 100%);*/
   background-size: cover;
+  position: relative;
 
 }
 
@@ -43,11 +49,11 @@
   background: url("https://i.imgur.com/lhnQzIp.png") no-repeat;
   background-size: 50px;
   right: 17%;
-  top: 53%;
+  top: 50%;
   transform: translateY(-12%); 
 }
 
-span{
+span {
   width: 50%;
   height: 50%;
   display: inline-block;
@@ -55,57 +61,100 @@ span{
 }
 
 /*Using Clip Path generator got the path for each section inside the wheel*/
-.selection1{
+.selection1 {
   clip-path: polygon(100% 50%, 0 0, 0 100%);
   background-color: #b34646;
   top: 110px;
   left: 0;
+  opacity: .9;
 }
-.selection2{
+
+.selection1:hover {
+  opacity: 1;
+}
+
+.selection2 {
   clip-path: polygon(100% 100%, 0 50%, 100% 0%);
   background-color: #cc60ba;
   top: 110px;
   right: 0;
+  opacity: .9;
 }
-.selection3{
+
+.selection2:hover {
+  opacity: 1;
+}
+
+.selection3 {
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
   background-color: #9b4ac0;
   bottom: 0;
   left: 110px;
+  opacity: .9;
 }
-.selection4{
+
+.selection3:hover {
+  opacity: 1;
+}
+
+.selection4 {
   clip-path: polygon(0 0, 50% 100%, 100% 0);
   background-color: #6860b6;
   top: 0;
   left: 110px;
+  opacity: .9;
 }
 
-.selection5{
+.selection4:hover {
+  opacity: 1;
+}
+
+.selection5 {
   clip-path: polygon(100% 100%, 50% 0, 0 50%);
   background-color: #f1ef51;
   top: 0;
   left: 0;
+  opacity: .9;
 }
 
-.selection6{
+.selection5:hover {
+  opacity: 1;
+}
+
+.selection6 {
   clip-path: polygon(0 100%, 100% 50%, 50% 0);
   background-color: #c35086;
   top: 110;
   left: 100;
+  opacity: .9;
 }
 
-.selection7{
+.selection6:hover {
+  opacity: 1;
+}
+
+.selection7 {
   clip-path: polygon(0 0, 50% 100%, 100% 50%);
   background-color: #b3ee71;
   bottom: 0;
   right: 0;
+  opacity: .9;
 }
 
-.selection8{
+.selection7:hover {
+  opacity: 1;
+}
+
+.selection8 {
   clip-path: polygon(100% 0, 50% 100%, 0 50%);
   background-color: #bb7f4d;
   bottom: 0;
   left: 0;
+  opacity: .9;
+}
+
+.selection8:hover {
+  opacity: 1;
 }
 
 
@@ -121,8 +170,8 @@ span b {
 /*Position the button absolute to the wheel so that the position does'nt change when screen size changes*/
 .spin {
   position: absolute;
-  top: 52%;
-  left: 50%;
+  top: 50%;
+  left: 50% ;
   transform: translate(-50%, 0);
   width: 75px;
   height: 75px;
@@ -130,7 +179,9 @@ span b {
   border-color:solid black;
   cursor: pointer;
   font-size: 20px;
-  background-color: rgb(172, 170, 170);
+  color: whitesmoke;
+  background-color: rgb(0, 0, 0);
+  opacity: .9;
 }
 
 /* when the button is clicked reduce the size and font size of the button to look like it is clicked */
@@ -138,6 +189,10 @@ span b {
   width: 70px;
   height: 70px;
   font-size: 15px;
+}
+
+.spin:hover {
+  opacity: 1;
 }
 
 /* this is for recipes image gallery*/

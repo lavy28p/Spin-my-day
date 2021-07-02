@@ -4,7 +4,12 @@ function RecipeDetail(props) {
  
   const params = useParams();
   const recipeToShow = props.recipes.find((recipe) => recipe.id === params.id);
- 
+  
+  if (!recipeToShow){
+    return(
+      <h3>Loading..</h3>
+    )
+  }
   return (
     <section>
       <div className="recipe1">
@@ -14,14 +19,13 @@ function RecipeDetail(props) {
         <img src={`${recipeToShow.fields.image}`} alt={`${recipeToShow.fields.name}`}></img>
       </div>
       <div className="recipe3">
-        <ol>
+        <ol style={{listStyleType: "initial"}}>
           <li>{recipeToShow.fields.ingredients}</li>
         </ol>
       </div>
       <div className="recipe4">
         <p>{recipeToShow.fields.detail}</p>
       </div>
-      
     </section>
   );
 }
