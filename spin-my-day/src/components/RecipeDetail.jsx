@@ -7,11 +7,21 @@ function RecipeDetail(props) {
  
   return (
     <section>
-      <h1>Detail page</h1>
-      <h2>{recipeToShow.fields.name}</h2>
-      <img src={`${recipeToShow.fields.image}`} alt={`${recipeToShow.fields.name}`}></img>
-      <h2>{recipeToShow.fields.ingredients}</h2>
-      <p>{recipeToShow.fields.detail}</p>
+      <div className="recipe1">
+        <h2>{recipeToShow.fields.name}</h2>
+      </div>
+      <div className="recipe2">
+        <img src={`${recipeToShow.fields.image}`} alt={`${recipeToShow.fields.name}`}></img>
+      </div>
+      <div className="recipe3">
+        <ol>
+          <li>{recipeToShow.fields.ingredients}</li>
+        </ol>
+      </div>
+      <div className="recipe4">
+        <p>{recipeToShow.fields.detail}</p>
+      </div>
+      
     </section>
   );
 }

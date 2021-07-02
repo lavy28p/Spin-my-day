@@ -7,7 +7,7 @@ function Navbar() {
     <nav>
       <ul>
         <Link to="/"><li>Home</li></Link>
-        <Link to="/recipe"><li>Recipes</li></Link>    
+        <Link to="/recipes"><li>Recipes</li></Link>    
         <div className="dropdown">
           <Link to="/books">
             <div className="dropbtn">

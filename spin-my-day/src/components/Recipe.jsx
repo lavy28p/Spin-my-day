@@ -5,13 +5,13 @@ function Recipe(props) {
   const { image, name, } = props.recipe.fields;
 
   return (
-    <div className="container">  
-      <div className="imgcontainer">
-        <h4 className="name">{name}</h4>
-        <Link to={`/recipe/${props.recipe.id}`}><img className="item" src={image} alt={name}/></Link>   
+      <div className="tile">  
+      <div className="image-gallery">
+        {/* <h4 className="name">{name}</h4> */}
+        <Link to={`/recipes/${props.recipe.id}`}><img className="img" src={image} alt={name}/></Link>   
       </div>
     </div>
-
+    
   );
 }
 

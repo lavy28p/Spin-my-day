@@ -67,15 +67,15 @@ function App() {
         <button className="spin" onClick={spin}>Spin it!</button>
       </Route>
 
-      <Route exact path="/recipe">
-        <main>
+      <Route exact path="/recipes">
+        <main className="tiles">
           {recipes.map((recipe) => (
             <Recipe key={recipe.id} recipe={recipe} />
           ))}
         </main>
       </Route>
 
-      <Route path="/recipe/:id">
+      <Route path="/recipes/:id">
         <RecipeDetail recipes={recipes} />
       </Route>
 
