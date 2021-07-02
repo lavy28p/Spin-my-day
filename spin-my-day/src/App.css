@@ -1,5 +1,5 @@
 *{
-  box-sizing: border-box;
+  /*box-sizing: border-box;*/
   padding: 0;
   margin: 0;
   outline: none;
@@ -8,8 +8,8 @@
 .App {
   text-align: center;
   padding: 20px;
-  background: rgb(4,2,56);
-  background: linear-gradient(90deg, rgba(4,2,56,1) 2%, rgba(9,9,121,1) 9%, rgba(0,212,255,1) 50%, rgba(2,0,36,1) 100%);
+  /*background: rgb(4,2,56);*/
+  /*background: linear-gradient(90deg, rgba(4,2,56,1) 2%, rgba(9,9,121,1) 9%, rgba(0,212,255,1) 50%, rgba(2,0,36,1) 100%);*/
 }
 
 .wheel {
@@ -19,8 +19,8 @@
   align-items: center;
   height: 100vh;
   overflow: hidden;
-  background: rgb(4,2,56);
-  background: linear-gradient(90deg, rgba(4,2,56,1) 2%, rgba(9,9,121,1) 9%, rgba(0,212,255,1) 50%, rgba(2,0,36,1) 100%);
+  /*background: rgb(4,2,56);
+  background: linear-gradient(90deg, rgba(4,2,56,1) 2%, rgba(9,9,121,1) 9%, rgba(0,212,255,1) 50%, rgba(2,0,36,1) 100%);*/
   background-size: cover;
 
 }
@@ -109,7 +109,7 @@ span{
 }
 
 
-span b{
+span b {
   font-size: 15px;
   position: absolute;
   top: 50%;

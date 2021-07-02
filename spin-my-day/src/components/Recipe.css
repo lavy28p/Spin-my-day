@@ -1,0 +1,38 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  overflow: auto;
+  background-color: grey;
+}
+
+.imgcontainer {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  background-color: yellow;
+  border: 2px solid black;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  margin: 9px auto;
+  padding: 9px;
+  text-align: center;
+}
+
+
+.imgcontainer, img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 50%;
+  /* width: 100px;
+  height: 100px; */
+  background-color: silver;
+
+}
