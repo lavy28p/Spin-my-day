@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Recipe from "./components/Recipe";
 import RecipeDetail from "./components/RecipeDetail";
 import Book from "./components/Book";
+import BookForm from "./components/BookForm";
 import { baseUrl, config } from "./services";
 import './App.css';
 
@@ -46,9 +47,9 @@ function App() {
 
   return (
     <div className="App">
+      <h1>SPIN MY DAY</h1>
       <Navbar />
       <Route exact path="/">
-        <h1>What's My Day Like!!</h1>
           <div className="wheel" >
             <div id="options" className="options" style={{ transform: `rotate(${angle}deg)` }}>    
               <div className="sections">
@@ -78,13 +79,16 @@ function App() {
         <RecipeDetail recipes={recipes} />
       </Route>
 
-      <Route path="/books">
+      <Route exact path="/books">
         <main>
           {books.map((book) => (
             <Book key={book.id} book={book}/>
           ))}
-
         </main>
+      </Route>
+
+      <Route path="/books/new">
+        <BookForm books={books} setToggleFetch={setToggleFetch}/>
       </Route>
     </div>  
   );

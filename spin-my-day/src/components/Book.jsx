@@ -6,6 +6,7 @@ function Book(props) {
 
   return (
       <section>      
+        
         <div className="bookwrapper">
           <div className="column-one">
           <img src={image} alt={title}/>

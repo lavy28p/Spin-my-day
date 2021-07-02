@@ -1,0 +1,35 @@
+.heading {
+  margin-bottom: 8vh;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+input {
+  margin-bottom: 8vh;
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  background-color:transparent;
+  outline: none;
+  color: rgb(39, 39, 39);
+}
+
+input::placeholder {
+  text-align: center;
+  color:silver;
+  font-family: 'Roboto', sans-serif;
+}
+
+btn {
+  background: rgba(255,255,255,.2);
+  width: 100%;
+  padding: 2vh;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px 4px;
+}
