@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom";
+import  "./RecipeDetail.css";
 
 function RecipeDetail(props) {
  
