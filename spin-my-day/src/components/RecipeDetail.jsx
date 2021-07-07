@@ -12,7 +12,7 @@ function RecipeDetail(props) {
     )
   }
   return (
-    <section>
+    <section className="recipe-container">
       <div className="recipe1">
         <h2>{recipeToShow.fields.name}</h2>
       </div>
@@ -21,11 +21,11 @@ function RecipeDetail(props) {
       </div>
       <div className="recipe3">
         <ol style={{listStyleType: "initial"}}>
-          <li>{recipeToShow.fields.ingredients}</li>
+          <li><h4>Ingredients:</h4>{recipeToShow.fields.ingredients}</li>
         </ol>
       </div>
       <div className="recipe4">
-        <p>{recipeToShow.fields.detail}</p>
+        <p><h4>How To:</h4> {recipeToShow.fields.detail}</p>
       </div>
     </section>
   );

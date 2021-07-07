@@ -8,8 +8,6 @@
 .App {
   text-align: center;
   padding: 20px;
-  /*background: rgb(4,2,56);*/
-  /*background: linear-gradient(90deg, rgba(4,2,56,1) 2%, rgba(9,9,121,1) 9%, rgba(0,212,255,1) 50%, rgba(2,0,36,1) 100%);*/
   position: relative;
 }
 
@@ -24,8 +22,6 @@
   align-items: center;
   height: 80vh;
   overflow: hidden;
-  /*background: rgb(4,2,56);
-  background: linear-gradient(90deg, rgba(4,2,56,1) 2%, rgba(9,9,121,1) 9%, rgba(0,212,255,1) 50%, rgba(2,0,36,1) 100%);*/
   background-size: cover;
   position: relative;
 
@@ -42,9 +38,9 @@
 }
 
 .wheel::after {
-  position: absolute;
+  position: inline-block;
   content: '';
-  width: 20%;
+  width: 5%;
   height: 10%;
   background: url("https://i.imgur.com/lhnQzIp.png") no-repeat;
   background-size: 50px;
@@ -170,9 +166,9 @@ span b {
 /*Position the button absolute to the wheel so that the position does'nt change when screen size changes*/
 .spin {
   position: absolute;
-  top: 50%;
+  top: 52%;
   left: 50% ;
-  transform: translate(-50%, 0);
+  transform: translate(-85%, 0);
   width: 75px;
   height: 75px;
   border-radius: 100%;
@@ -204,4 +200,59 @@ span b {
   flex-direction: row;
   justify-content: center;
   position: relative;
+}
+
+@media only screen and (max-device-width: 768px) {
+
+    *{
+      padding: 0;
+      margin: 0;
+      outline: none;
+    }
+
+    .App {
+      text-align: center;
+      padding: 5px;
+      position: relative;
+    }
+    
+    .App h1 {
+      font-size: 10px;
+    }
+
+    .wheel {
+      font-family: Arial, Helvetica, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 40vh;
+      overflow: hidden;
+      background-size: cover;
+      position: relative;
+    
+    }
+
+    .options {
+      width: 100px;
+      height: 150px;
+      position: relative;
+      border-radius: 100%;
+      border: 5px solid black;
+      overflow: hidden;
+      transition: all 1s ease-in-out;
+    }
+
+    .wheel::after {
+      position: inline-block;
+      content: '';
+      width: 20%;
+      height: 10%;
+      background: url("https://i.imgur.com/lhnQzIp.png") no-repeat;
+      background-size: 50px;
+      right: 17%;
+      top: 50%;
+      transform: translateY(-12%); 
+    }
+
+
 }

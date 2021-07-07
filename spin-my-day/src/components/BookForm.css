@@ -1,12 +1,14 @@
 .heading {
-  margin-bottom: 8vh;
+  margin-bottom: 10vh;
+  font-size: 15px;
+  color: rgb(39, 39, 39);
 }
+
 form {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
 }
 
 input {
@@ -25,11 +27,14 @@ input::placeholder {
   font-family: 'Roboto', sans-serif;
 }
 
-btn {
+.form-class .btn {
   background: rgba(255,255,255,.2);
   width: 100%;
-  padding: 2vh;
+  padding: 0px;
   border: none;
   cursor: pointer;
   border-radius: 4px 4px;
+  letter-spacing: 0.7px;
+  cursor: pointer;
+  font-size: 15px;
 }

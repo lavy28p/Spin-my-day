@@ -28,7 +28,7 @@ function BookForm(props) {
 
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="form-class" onSubmit={handleSubmit}>
       <div className="heading">
         <h2>Add Me To Read List!</h2> 
       </div>
